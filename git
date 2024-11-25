@@ -1,0 +1,27 @@
+
+cd desktop
+2.cd OSTlab
+3.git clone https://github.com/Deepika0422/OSTlab.git
+4.git init
+5.git checkout -b branch1
+6.git add text1.txt
+7.git commit -m "Change made successfully"
+8.git branch
+9.git remote add origin https://github.com/Deepika0422/OSTlab.git
+10.git push origin branch1
+11.git checkout -b main
+12.git add text2.txt
+13.git commit -m "new change"
+14.git push origin main
+  //Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 240 bytes | 240.00 KiB/s, done.
+Total 2 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'main' on GitHub by visiting:
+remote: https://github.com/Deepika0422/OSTlab/pull/new/main
+remote:
+To https://github.com/Deepika0422/OSTlab.git
+ * [new branch] main -> main
